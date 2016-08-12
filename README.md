@@ -20,7 +20,7 @@ Centos6.5+nodejsv4.x+express的安装
 模式下操作，root模式稍微说一下（su
 回车，然后输入密码即可）
 3.获取nodejs 资源，这里有一下几种模式
- 4.x----------------------
+ 4.x-------------------------------------------------------------------------------------------------
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
 
  5.x------------------------------
@@ -43,7 +43,7 @@ node -v
 a、切换到 root 用户
 b、vi /etc/profile
 c、在最下面加入
-# node （注释作用）
+ node （注释作用----------------========================================================）
     export NODE_HOME=/usr/local/src/node-v4.2.3-linux-x86
     export PATH=$PATH:$NODE_HOME/bin  
     export NODE_PATH=$NODE_HOME/lib/node_modules 
