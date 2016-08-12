@@ -15,10 +15,13 @@ Centos6.5+nodejsv4.x+express的安装
 试了好多还是失败了，后来我差点绝望了，不过我发现了一个办法可以，在这里跟大家说一声，希望少走
 弯路）
 (注意：这里的所有操作都在root模式下)
+
 1.安装centos6.5可以在虚拟机下安装
+
 2.打开centos6.5，打开终端，在root
 模式下操作，root模式稍微说一下（su
 回车，然后输入密码即可）
+
 3.获取nodejs 资源，这里有一下几种模式
  -------------------------------------------------------------------------------------------------
  4.x------------------------------
@@ -45,19 +48,24 @@ node -v
 （也很简单哦）
 
 a、切换到 root 用户
+
 b、vi /etc/profile
 c、在最下面加入
+
  node （注释作用----------------========================================================）
     export NODE_HOME=/usr/local/src/node-v4.2.3-linux-x86
     export PATH=$PATH:$NODE_HOME/bin  
     export NODE_PATH=$NODE_HOME/lib/node_modules 
+    
 d、:wq （保存并退出）
+
 e、source /etc/profile （使配置文件生效）
 -------------------------------------------------------------------
 下面可以安装express框架，具体express框架的作用自己谷歌一下
 1.npm install express -g
 不过express安装之后还要安装一下npm install -g express-generator
 具体为什么可以自己去了解这里就不多说了
+
 2.验证是否
 建立一个文件夹，然后express myblog
 然后你们就应该都会了。。。。。。
