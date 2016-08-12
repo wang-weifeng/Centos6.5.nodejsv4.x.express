@@ -29,10 +29,13 @@ curl --silent --location https://rpm.nodesource.com/setup_5.x | bash -
 
  0.10-----------------------------
 curl --silent --location https://rpm.nodesource.com/setup | bash -
+
 我当然安装比较新的版本，4.X
 在root模式下输入其中的一个
+
 4.安装
 yum install -y nodejs------------------------------------------
+
 5.测试是否成功
 node -v
 成功会返回版本号
