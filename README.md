@@ -37,7 +37,7 @@ curl --silent --location https://rpm.nodesource.com/setup | bash -
 在root模式下输入其中的一个
 
 4.安装
-yum install -y nodejs------------------------------------------
+yum install -y nodejs
 
 5.测试是否成功
 node -v
@@ -52,7 +52,7 @@ a、切换到 root 用户
 b、vi /etc/profile
 c、在最下面加入
 
- node （注释作用----------------========================================================）
+ node （注释作用）
     export NODE_HOME=/usr/local/src/node-v4.2.3-linux-x86
     export PATH=$PATH:$NODE_HOME/bin  
     export NODE_PATH=$NODE_HOME/lib/node_modules 
@@ -62,6 +62,7 @@ d、:wq （保存并退出）
 e、source /etc/profile （使配置文件生效）
 -------------------------------------------------------------------
 下面可以安装express框架，具体express框架的作用自己谷歌一下
+
 1.npm install express -g
 不过express安装之后还要安装一下npm install -g express-generator
 具体为什么可以自己去了解这里就不多说了
