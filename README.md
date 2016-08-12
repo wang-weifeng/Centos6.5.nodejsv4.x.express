@@ -20,13 +20,13 @@ Centos6.5+nodejsv4.x+express的安装
 模式下操作，root模式稍微说一下（su
 回车，然后输入密码即可）
 3.获取nodejs 资源，这里有一下几种模式
- #4.x
+ 4.x----------------------
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
 
-# 5.x
+ 5.x------------------------------
 curl --silent --location https://rpm.nodesource.com/setup_5.x | bash -
 
-# 0.10
+ 0.10---------------------------------
 curl --silent --location https://rpm.nodesource.com/setup | bash -
 我当然安装比较新的版本，4.X
 在root模式下输入其中的一个
