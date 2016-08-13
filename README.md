@@ -34,6 +34,7 @@ curl --silent --location https://rpm.nodesource.com/setup_5.x | bash -
 curl --silent --location https://rpm.nodesource.com/setup | bash -
 
 我当然安装比较新的版本，4.X
+
 在root模式下输入其中的一个
 
 4.安装
@@ -46,33 +47,15 @@ node -v
 
 --------------------------------------------------------------------
 
-这样看起来似不似很简单，没错nodejs安装成功了
-不过我们要设置一下环境变量，这里使用起来简单
-（也很简单哦）
-
-a、切换到 root 用户
-
-b、vi /etc/profile
-c、在最下面加入
-
- node （注释作用）
-    export NODE_HOME=/usr/local/src/node-v4.2.3-linux-x86
-    
-    export PATH=$PATH:$NODE_HOME/bin  
-    
-    export NODE_PATH=$NODE_HOME/lib/node_modules 
-    
-d、:wq （保存并退出）
-
-e、source /etc/profile （使配置文件生效）
-
--------------------------------------------------------------------
 下面可以安装express框架，具体express框架的作用自己谷歌一下
 
 1.npm install express -g
+
 不过express安装之后还要安装一下npm install -g express-generator
+
 具体为什么可以自己去了解这里就不多说了
 
 2.验证是否
 建立一个文件夹，然后express myblog
+
 然后你们就应该都会了。。。。。。
